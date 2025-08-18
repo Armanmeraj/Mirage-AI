@@ -4,4 +4,10 @@ __pycache__/
 *.pyc
 .DS_Store
 *.log
-
+cat >> .gitignore <<'EOF'
+/results/
+/data/simulated/
+/results/runs/
+*.pt
+*.csv
+*.png
